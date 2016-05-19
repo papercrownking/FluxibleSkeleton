@@ -1,0 +1,17 @@
+{
+    "extends": "airbnb",
+    "rules": {
+    	"max-len": [1, 120, 2, {ignoreComments: true}],
+        "indent": [2, "tab"],
+        "curly": 2,
+        "comma-dangle": 0,
+        "no-param-reassign": 0,
+        "arrow-body-style": 0,
+        "no-unused-expressions": 0,
+        "react/no-deprecated": [1, { "react": "0.13.0" }],
+        "quotes": [1, "single"],
+        "prefer-template": 1,
+        "react/jsx-indent-props": [2, "tab"],
+        "react/no-multi-comp": 0
+    }
+}
